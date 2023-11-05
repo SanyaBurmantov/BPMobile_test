@@ -5,4 +5,4 @@ npm start
 
 
 ссылка на деплой
-https://bp-mobile-test-o2k295yuy-sanyaburmantov.vercel.app/
+https://bp-mobile-test-delta.vercel.app/
