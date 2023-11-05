@@ -1,0 +1,170 @@
+@import "removestyles.css";
+@import "globals.css";
+
+.cross{
+    background-image: url("../assets/images/icons/close.png");
+    background-size: cover;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 24px;
+    top: 23px;
+}
+
+.application{
+    background-image: url("../assets/images/background.png");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    justify-content: center;
+}
+
+.wrapper{
+    padding: 24px 21px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(197deg, rgba(0, 0, 0, 0.00) 10.43%, rgba(21, 5, 52, 0.64) 30.66%, rgba(0, 0, 0, 0.86) 37.66%, rgba(9, 1, 25, 0.95) 45.57%, rgba(0, 0, 0, 0.95) 77.38%, rgba(5, 1, 14, 0.95) 94.32%);
+}
+
+.promo{
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+    margin-bottom: 49.7px;
+}
+
+.promo-item{
+    position: relative;
+    width: 104.4px;
+    height: 138.6px;
+}
+
+.promo-item__picture{
+    width: 104.4px;
+    height: 138.6px;
+}
+
+.promo-item__text{
+    position: absolute;
+    color: #FFF;
+    font-size: 11px;
+    line-height: 13px;
+    font-style: normal;
+    font-weight: 400;
+    bottom: 10.8px;
+    left: 7.2px;
+    text-align: left;
+}
+
+.title__h1{
+    color: #FFF;
+    text-shadow: 0px 0px 48px rgba(4, 3, 26, 0.83);
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 860;
+    line-height: 46px;
+}
+
+.btn{
+    border-radius: 32px;
+    cursor: pointer;
+    width: 342px;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-promo{
+    border: 1px solid #FFF;
+    background: rgba(255, 255, 255, 0.30);
+    backdrop-filter: blur(5.436563491821289px);
+    display: flex;
+    flex-direction: row;
+    padding: 8px 24px;
+    justify-content: flex-start;
+}
+
+.btn-promo__stopper{
+    position: absolute;
+    top: -12px;
+    right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.50);
+    color: #141131;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 0 22px;
+    height: 20px;
+}
+
+.btn-promo--weakly{
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(5.436563491821289px);
+    border: none;
+}
+.btn-promo__title{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.btn-promo__description{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+}
+
+.btn-promo__price{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btn-white{
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #070B33;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 590;
+    line-height: 24px; /* 120% */
+}
+
+.footer{
+    display: flex;
+    gap: 32px;
+    position: absolute;
+    bottom: 11px
+}
+
+.footer__btn{
+    color: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    font-size: 12.5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.577px;
+}

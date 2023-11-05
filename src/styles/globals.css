@@ -1,0 +1,63 @@
+a{
+    text-decoration: none;
+}
+
+.width-65{
+    width: 65%;
+}
+
+.mb-8{
+    margin-bottom: 8px;
+}
+
+.mb-54{
+    margin-bottom: 54px;
+}
+
+.footer-big-screen{
+    bottom: 31px
+}
+
+.footer-small-screen{
+    bottom: 11px
+}
+
+.close-item-big-screen{
+    top: 72px;
+}
+
+.close-item-small-screen{
+    top: 23px;
+}
+
+.title-padding-small-screen{
+    margin-bottom: 40px;
+}
+
+.title-padding-big-screen{
+    margin-bottom: 40.7px;
+}
+
+.promo-padding-small-screen{
+    margin-bottom: 40.4px;
+}
+
+.promo-padding-big-screen{
+    margin-bottom: 49.7px;
+}
+
+.plans-padding-small-screen{
+    margin-bottom: 8px;
+}
+
+.plans-padding-big-screen{
+    margin-bottom: 16px;
+}
+
+.continue-padding-small-screen{
+    margin-bottom: 54px;
+}
+
+.continue-padding-big-screen{
+    margin-bottom: 77px;
+}
